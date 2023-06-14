@@ -140,18 +140,18 @@ public class tictactoe implements ActionListener {
         }
     }
     public void xWins(int a, int b, int c) {
-        buttons[a].setBackground(Color.GREEN);
-        buttons[b].setBackground(Color.GREEN);
-        buttons[c].setBackground(Color.GREEN);
+        buttons[a].setBackground(Color.GREY);
+        buttons[b].setBackground(Color.GREY);
+        buttons[c].setBackground(Color.GREY);
         for (int i=0; i<9; i++) {
             buttons[i].setEnabled(false);
         }
         textfield.setText("X wins!");
     }
     public void oWins(int a, int b, int c) {
-        buttons[a].setBackground(Color.GREEN);
-        buttons[b].setBackground(Color.GREEN);
-        buttons[c].setBackground(Color.GREEN);
+        buttons[a].setBackground(Color.GREY);
+        buttons[b].setBackground(Color.GREY);
+        buttons[c].setBackground(Color.GREY);
         for (int i=0; i<9; i++) {
             buttons[i].setEnabled(false);
         }
